@@ -30,14 +30,17 @@ Rocq Projects, that is:
   - The Docker Opam Action (rocq-prover/docker-opam-action)
   - The ROCQbot development tool (rocq-prover/bot)
 - The official documentation and communication channels:
-  - The rocq-prover.org website (rocq-prover/rocq-prover.org)
-  - The Rocq Platform Docs (rocq-prover/platform-docs)
-  - The Rocq workshops
-  - The Discourse forum
-  - The Zulip chat
-  - The mailing lists (currently Coq-Club and Coqdev)
-  - The social media accounts (currently CoqLang on X/Twitter)
+  - The [rocq-prover.org](https://rocq-prover.org) website (rocq-prover/rocq-prover.org)
+  - The [Rocq Platform Docs](https://github.com/coq/platform-docs) (rocq-prover/platform-docs)
+  - The [Rocq Workshop](https://coq-workshop.gitlab.io/) and [RocqPL](https://coq.inria.fr/coqpl.html)
+  - The [Discourse](https://coq.discourse.group) forum
+  - The [Rocq Zulip](https://coq.zulipchat.com) chat
+  - The social media accounts: currently [RocqProver](https://mastodon.acm.org/@RocqProver) on Mastodon.
 
+<!--- 
+  - The mailing lists (currently Coq-Club)
+-->
+  
 Community projects, such as the Rocq-community organization, are not covered by
 this governance document.
 
@@ -68,19 +71,18 @@ applications.
 
 ## II. Roles and responsibilities
 
-### A. Project Leader, Coordination Team and Core Team
+### A. Project Leader and Core Team
 
-The Project Leader of the official Rocq Projects is Matthieu Sozeau. The Project Leader can
-appoint a team of [Rocq Coordinators](/governance/governance#Coordination)
-to help with coordination tasks, who have the right to act in the name of the Project Leader
-in all matters of coordination.
+The Project Leader of the official Rocq Projects is Matthieu Sozeau.
+
+The Project Leader has appointed a team of [Rocq Counselors](/governance/governance#Council)
+to help with project managment tasks.
 
 *Currently, Matthieu Sozeau has appointed Yves Bertot, Paul-André Mélies,
-Nicolas Tabareau and Théo Zimmermann as Rocq Coordinators, who have accepted this Role.*
+Nicolas Tabareau and Théo Zimmermann as Rocq Counselors, who have accepted this Role.*
 
-The [Rocq Core](/governance/governance#Core) team is composed of the Rocq Coordinators and 
-a set of voluntary, co-opted Maintainers that govern the development of the Rocq Prover
-and official Rocq Projects.
+The [Rocq Core](/governance/governance#Core) team is composed of a set of voluntary, 
+co-opted developers that govern the development of the Rocq Prover and official Rocq Projects.
 
 It is the role of the Project Leader and the Core team to resolve disputes that may arise in relation to
 the official Rocq Projects, specifically to ensure that
@@ -88,8 +90,8 @@ these projects are able to progress in a coordinated way.
 The Rocq Core team has a formal [voting process](https://github.com/coq/coq/wiki/Core-Team-Voting-Process) 
 that can be used to resolve conflicts in case consensus cannot be reached.
 
-It is the community's role to guide the decisions of the Project Leader through active engagement,
-contributions, and discussions. To foster a healthy and growing community, the
+It is the community's role to guide the decisions of the Project Leader and Core Team through 
+active engagement, contributions, and discussions. To foster a healthy and growing community, the
 Project Leader will make the goals and decisions clear and public.
 
 It is anticipated that the Projects themselves will be self-managing and will
@@ -106,6 +108,7 @@ and the composition of their team, in agreement with the
 Project Leader. In the specific case of disputes, the Delegate(s) will consult with the
 Project Leader, who will act as arbitrator if required.
 
+
 ### C. Maintainers
 
 Projects under Rocq governance will have their own Maintainers, who have commit
@@ -114,7 +117,7 @@ access to relevant repositories and are responsible for:
 - Managing the specific project.
 - Writing code directly to repositories.
 - Eliciting and screening the contributions of others.
-- Ensuring that the Project Leader, Rocq Coordinator, and Delegates/Team Leaders are aware of community needs.
+- Ensuring that the Project Leader, Rocq Core Team, and Delegates/Team Leaders are aware of community needs.
 
 Generally, Maintainers only have authority over the specific Projects they are
 responsible for though it is expected that Maintainers of different Projects
@@ -213,6 +216,11 @@ role by the [Code of Conduct enforcement team](/governance/community#Code%20of%2
 The version number should be changed for *any* edits that are made to this
 document, even typos. Otherwise disambiguating between versions is awkward.
 -->
+**Version 0.2 - January 9th 2025**
+
+- The project leader amended the version 0.1 to reflect his proposed changes to the organization between 
+  the Project Leader, Council (replacing Coordinators) and Core Team. This governance model is *not*
+  yet adopted by the Rocq Core Team.
 
 **Version 0.1 - December 24th 2024**
 

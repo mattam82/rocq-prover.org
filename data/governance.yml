@@ -1,29 +1,12 @@
 teams:
 - id: governance
   name: Governance
-  description: The governance is ensured by the Project Leader, with the help of the
-    Coordination team, and by the Core team.
+  description: The governance is ensured by the Core Team and its Project Leader, with the help of a
+    Council team.
   subteams:
-  - id: coordination
-    name: Coordination
-    description: The Coordination team is appointed by the Rocq project leader to help
-      coordinate the activities of the other teams, and the project roadmap.
-    default_role: Coordinator
-    members:
-    - name: Matthieu Sozeau
-      github: mattam82
-      role: Project Leader
-    - name: Yves Bertot
-      github: ybertot
-    - name: Paul-André Melliés
-      github: pamellies
-    - name: Nicolas Tabareau
-      github: tabareau
-    - name: Théo Zimmermann
-      github: Zimmi48
   - id: core
     name: Core
-    description: The Core team is composed of long-term, significant contributors to the Rocq project.
+    description: The Rocq Core team is composed of a set of voluntary, co-opted developers that govern the development of the Rocq Prover and official Rocq Projects.
     default_role: Core developer
     dev_meeting:
       date: Every Tuesday
@@ -35,6 +18,27 @@ teams:
     - name: Matthieu Sozeau
       github: mattam82
       role: Project Leader
+  - id: council
+    name: Council
+    description: The Council team is appointed by the Rocq project leader to help
+      with decision making, to coordinate the activities of the other teams, 
+      to maintain the project roadmap, organise discussions and events and 
+      coordinate staffing of engineers.
+    default_role: Counselor
+    members:
+    - name: Matthieu Sozeau
+      github: mattam82
+      role: Project Leader
+    - name: Yves Bertot
+      github: ybertot
+      role: Counselor, Rocq Consortium Manager
+    - name: Paul-André Melliés
+      github: pamellies
+    - name: Nicolas Tabareau
+      github: tabareau
+    - name: Théo Zimmermann
+      github: Zimmi48
+      role: Counselor, Rocq Community Manager
 - id: community
   name: Community
   description: The Community team is responsible for managing forums, social media, and community events.
